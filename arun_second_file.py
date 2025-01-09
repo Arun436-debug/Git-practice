@@ -5,3 +5,9 @@ while True:
     n = int(input('ENer the number to check even or not : '))
     res = check_even_or_odd(n)
     print(res)
+    if res == "even":
+        print(True)
+        break
+    else:
+        print(False)
+        break

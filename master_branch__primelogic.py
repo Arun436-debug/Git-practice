@@ -8,3 +8,5 @@ while True:
         i = i+1
     if cnt == 2:
         print(num,' is prime number')
+    else:
+        print('Not a Prime number')
